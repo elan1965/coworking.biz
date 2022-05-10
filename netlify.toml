@@ -4,3 +4,24 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+  
+[[redirects]]
+from = "http://find-place.work/*"
+to = "https://coworking-space.find-place.work/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://find-place.work/*"
+to = "https://coworking-space.find-place.work/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "http://www.find-place.work/*"
+to = "https://coworking-space.find-place.work/:splat"
+status = 301
+force = true
+[[redirects]]
+from = "https://www.find-place.work/*"
+to = "https://coworking-space.find-place.work/:splat"
+status = 301
+force = true
